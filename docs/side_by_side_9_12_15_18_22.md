@@ -1,6 +1,6 @@
 # Side‑by‑Side: Original vs Rewrite (Indexes 9, 12, 15, 18, 22)
 
-_Generated 2025-08-14T23:01:19_
+_Generated 2025-08-14T23:04:00_
 
 ---
 ## Index 9
