@@ -1,0 +1,45 @@
+site_name: LENS Documentation
+site_description: Liberation + Enlightenment + Noesis = Synergy
+site_author: Kyrios
+repo_url: https://github.com/troymork/LENS
+repo_name: troymork/LENS
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - content.code.annotate
+    - content.tabs.link
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: blue
+  font:
+    text: Inter
+    code: Fira Code
+
+nav:
+  - Home: index.md
+  - Architecture:
+      - Overview: architecture/_index.md
+      - Full (v2025-08-15): architecture/v2025-08/LENS_Architecture_v2025-08-15.md
+      - Sections:
+          - Opening Cinematic: architecture/v2025-08/01-opening-cinematic.md
+          - LENS Equation: architecture/v2025-08/02-lens-equation.md
+          - Core Gameplay Loop: architecture/v2025-08/03-core-gameplay-loop.md
+          - Mechanics & Systems: architecture/v2025-08/04-mechanics-and-systems.md
+          - Meta-Narrative & Lore: architecture/v2025-08/05-meta-narrative-and-lore.md
+          - Real-World Impact Bridge: architecture/v2025-08/06-real-world-impact-bridge.md
+          - Technology & Infrastructure: architecture/v2025-08/07-technology-and-infrastructure.md
+          - Growth & Adoption: architecture/v2025-08/08-growth-and-adoption.md
+          - Impact & Market: architecture/v2025-08/09-impact-and-market.md
+          - Call to Adventure: architecture/v2025-08/10-call-to-adventure.md
+          - Implementation Roadmap: architecture/v2025-08/11-technical-implementation-roadmap.md
+  - Changelog: ../CHANGELOG.md
